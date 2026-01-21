@@ -1,6 +1,6 @@
 package com.slidingmenu.lib;
 
-import com.softwinner.fireplayer.R;
+import com.dismal.fireplayer.R;
 
 import java.lang.reflect.Method;
 

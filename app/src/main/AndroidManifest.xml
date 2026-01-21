@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.softwinner.fireplayer">
+    package="com.dismal.fireplayer">
 
 
 
@@ -11,7 +11,7 @@
 
 
     <application
-        android:name="com.softwinner.fireplayer.ui.FourKApplication"
+        android:name="com.dismal.fireplayer.ui.FourKApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -19,7 +19,7 @@
         android:hardwareAccelerated="true">
 
         <activity
-            android:name="com.softwinner.fireplayer.ui.FourKMainActivity"
+            android:name="com.dismal.fireplayer.ui.FourKMainActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.Main">
             <intent-filter>
@@ -34,7 +34,7 @@
         </activity>
 
         <activity
-            android:name="com.softwinner.fireplayer.ui.VideoPlayerActivity"
+            android:name="com.dismal.fireplayer.ui.VideoPlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/ThemeNoTitleBarFullScreen">
             <intent-filter>
@@ -75,25 +75,25 @@
         </activity>
 
         <service
-            android:name="com.softwinner.fireplayer.mediamanager.LocalMediaScannerService"
+            android:name="com.dismal.fireplayer.mediamanager.LocalMediaScannerService"
             android:exported="false"/>
         <service
-            android:name="com.softwinner.fireplayer.videoplayerui.FloatVideoService"
+            android:name="com.dismal.fireplayer.videoplayerui.FloatVideoService"
             android:exported="true">
             <intent-filter>
-                <action android:name="softwinner.intent.action.PLAY_NETURI"/>
+                <action android:name="dismal.intent.action.PLAY_NETURI"/>
             </intent-filter>
         </service>
 
         <provider
-            android:name="com.softwinner.fireplayer.provider.LocalMediaProvider"
-            android:authorities="com.softwinner.fireplayer"
+            android:name="com.dismal.fireplayer.provider.LocalMediaProvider"
+            android:authorities="com.dismal.fireplayer"
             android:exported="true"/>
         <provider
-            android:name="com.softwinner.fireplayer.provider.MySuggestionProvider"
-            android:authorities="com.softwinner.fireplayer.MySuggestionProvider"/>
+            android:name="com.dismal.fireplayer.provider.MySuggestionProvider"
+            android:authorities="com.dismal.fireplayer.MySuggestionProvider"/>
 
-        <receiver android:name="com.softwinner.fireplayer.mediamanager.MediaScannerReceiver">
+        <receiver android:name="com.dismal.fireplayer.mediamanager.MediaScannerReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_MOUNTED"/>
                 <data android:scheme="file"/>
@@ -111,7 +111,7 @@
                 <data android:scheme="file"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.softwinner.MEDIA_SCANNER_DELETE_FILE"/>
+                <action android:name="android.intent.action.dismal.MEDIA_SCANNER_DELETE_FILE"/>
                 <data android:scheme="file"/>
             </intent-filter>
             <intent-filter>
@@ -121,6 +121,6 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.softwinner.service.SoftWinnerService"/>
+        <service android:name="com.dismal.service.dismalService"/>
     </application>
 </manifest>

@@ -41,7 +41,7 @@ public class SlidingActivityHelper {
 	 * @param savedInstanceState the saved instance state (unused)
 	 */
 	public void onCreate(Bundle savedInstanceState) {
-		mSlidingMenu = (SlidingMenu) LayoutInflater.from(mActivity).inflate(com.softwinner.fireplayer.R.layout.slidingmenumain, null);
+		mSlidingMenu = (SlidingMenu) LayoutInflater.from(mActivity).inflate(com.dismal.fireplayer.R.layout.slidingmenumain, null);
 	}
 
 	/**

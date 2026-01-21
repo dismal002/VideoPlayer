@@ -90,7 +90,7 @@
     <string name="VideoView_error_not_support">Sorry, the player encounters an error, please refresh playlists!</string>
     <string name="menu_about">About</string>
     <string name="about_description">VideoPlayer is an Android Movie Player inspired by the UI of Softwinner FirePlayer.</string>
-    <string name="github_link">https://github.com/placeholder/VideoPlayer</string>
+    <string name="github_link">https://github.com/dismal002/VideoPlayer</string>
     <string name="menu_sort_date">Sort by Date</string>
     <string name="menu_sort_asc">Ascending</string>
 </resources>
