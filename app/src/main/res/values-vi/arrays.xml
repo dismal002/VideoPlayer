@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D chương trình ban đầu</item>
+        <item>3D trái và bên phải (HDMI)</item>
+        <item>3D trên và dưới (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Trung giản thể (GBK)</item>
+        <item>Truyền thống Trung Quốc (Big5)</item>
+        <item>Hàn Quốc (EUC-KR)</item>
+        <item>Tiếng Nhật (Shift_JIS)</item>
+        <item>Thái (TIS-620)</item>
+        <item>Cyrillic (KOI8-R)</item>
+        <item>Cyrillic (ISO-8859-5)</item>
+        <item>Cyrillic (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Tây Âu (ISO-8859-1)</item>
+        <item>Ngôn ngữ phương Tây (cp1254)</item>
+        <item>Trung ương châu Âu (ISO-8859-2)</item>
+        <item>Trung ương châu Âu (cp1250)</item>
+        <item>Nam Âu (ISO-8859-3)</item>
+        <item>Bắc Âu (ISO-8859-4)</item>
+        <item>Ả Rập (ISO-8859-6)</item>
+        <item>Ả rập (cp1256)</item>
+        <item>Hy Lạp (ISO-8859-7)</item>
+        <item>Hy Lạp (cp1253)</item>
+        <item>Tiếng Do Thái (ISO-8859-8)</item>
+        <item>Tiếng Do Thái (cp1255)</item>
+        <item>Thổ Nhĩ Kỳ (ISO-8859-9)</item>
+        <item>Thổ Nhĩ Kỳ (Cp1252)</item>
+        <item>Việt Nam (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Chơi một lần</item>
+        <item>Lặp lại tất cả</item>
+        <item>Chơi tự</item>
+        <item>Lặp lại một</item>
+        <item>Chơi ngẫu nhiên</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/thumbs_grid_frag_fl" android:background="#ebf0f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:gravity="center" android:id="@+id/gridView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/main_gv_marg_left" android:layout_marginRight="@dimen/main_gv_marg_right" android:horizontalSpacing="@dimen/main_gv_hori_space" android:verticalSpacing="@dimen/main_gv_vert_space" android:stretchMode="columnWidth" android:columnWidth="@dimen/main_gv_item_width" android:numColumns="auto_fit" android:fastScrollEnabled="true" style="@style/PhotoGridLayout"/>
+    <ProgressBar android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/progressbar_mediascan" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MyProgressStyle"/>
+    <TextView android:layout_gravity="center" android:id="@+id/textview_no_media" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_no_search_media" style="?android:attr/textAppearanceLarge"/>
+    <ImageView android:id="@+id/usage_guide" android:background="@drawable/usage_hint1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

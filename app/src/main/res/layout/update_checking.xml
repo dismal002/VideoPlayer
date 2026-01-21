@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/update_check_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp">
+    <ProgressBar android:id="@+id/scan_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    <TextView android:layout_gravity="center_vertical" android:id="@+id/update_hint_title" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_updating" android:lineSpacingMultiplier="1" style="?android:attr/textAppearanceLarge"/>
+</LinearLayout>

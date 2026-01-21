@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/appwidget_stack_item" android:background="@drawable/thumb_border" android:layout_width="@dimen/main_gv_video_item_width" android:layout_height="@dimen/main_gv_video_item_height">
+    <ImageView android:layout_gravity="center" android:id="@+id/appwidget_media_item" android:background="@drawable/ic_media_default" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <ImageButton android:layout_gravity="center" android:id="@+id/appwidget_media_play" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bttn_play_m"/>
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/subtitle_scroll" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckedTextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/subtitle_switch" android:background="@drawable/vplayer_clickable_bg" android:layout_width="match_parent" android:layout_height="40dp" android:checkMark="?android:attr/listChoiceIndicatorMultiple" android:text="@string/subtitle_switch"/>
+            <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subtitle_selector" android:background="@drawable/vplayer_selector_bg" android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/select_subtitle"/>
+                <com.softwinner.fireplayer.videoplayerui.AlwaysMarqueeTextView android:textSize="16sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/current_subtitle" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/no_subtitle" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1" android:marqueeRepeatLimit="marquee_forever"/>
+            </LinearLayout>
+            <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subtitle_adjust" android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/subtitle_delay"/>
+                <SeekBar android:layout_gravity="center_vertical" android:id="@+id/adjust_bar" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="6dp" android:progressDrawable="@drawable/vplayer_seekbar_progress" android:minHeight="6dp" android:thumb="@drawable/vplayer_seekbar_thumb" android:thumbOffset="13dp" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/current_adjust" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subtitle_size" android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/subtitle_size"/>
+                <SeekBar android:gravity="center_vertical" android:id="@+id/size_bar" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="6dp" android:progressDrawable="@drawable/vplayer_seekbar_progress" android:minHeight="6dp" android:thumb="@drawable/vplayer_seekbar_thumb" android:thumbOffset="13dp" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/current_size" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subtitle_color" android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/subtitle_color"/>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/color_panel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/subtitle_coding" android:background="@drawable/vplayer_selector_bg" android:layout_width="match_parent" android:layout_height="40dp">
+                <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/subtitle_charset"/>
+                <com.softwinner.fireplayer.videoplayerui.AlwaysMarqueeTextView android:textSize="16sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/current_coding" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="match_parent" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1" android:marqueeRepeatLimit="marquee_forever"/>
+            </LinearLayout>
+            <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <ListView android:id="@+id/subtitle_list" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:choiceMode="singleChoice" style="@style/Widget.AppCompat.ListView"/>
+    <ListView android:id="@+id/subtitle_coding_list" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:choiceMode="singleChoice" style="@style/Widget.AppCompat.ListView"/>
+</ViewAnimator>

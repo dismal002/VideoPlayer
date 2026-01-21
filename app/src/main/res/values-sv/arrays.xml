@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D Visa original</item>
+        <item>3D vänster och höger (HDMI)</item>
+        <item>3D topp och botten (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Förenklad kinesiska (GBK)</item>
+        <item>Traditionell kinesiska (Big5)</item>
+        <item>Koreanska (EUC-KR)</item>
+        <item>Japanska (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Kyrilliska (KOI8-R)</item>
+        <item>Kyrillisk (ISO-8859-5)</item>
+        <item>Kyrilliska (CP1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Västeuropa (ISO-8859-1)</item>
+        <item>Västerländska språk (cp1254)</item>
+        <item>Centraleuropa (ISO-8859-2),</item>
+        <item>Centraleuropa (cp1250)</item>
+        <item>Sydeuropa (ISO-8859-3)</item>
+        <item>Nordeuropa (ISO-8859-4) för</item>
+        <item>Arabiska (ISO-8859-6)</item>
+        <item>Arabic(cp1256)</item>
+        <item>Grekiska (ISO-8859-7)</item>
+        <item>Grekiska (cp1253)</item>
+        <item>Hebreiska (ISO-8859-8)</item>
+        <item>Hebrew (cp1255)</item>
+        <item>Turkiska (ISO-8859-9)</item>
+        <item>Turkish (CP1252)</item>
+        <item>Vietnamesiska (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Spela en gång</item>
+        <item>Repetera alla</item>
+        <item>Sekvens lek</item>
+        <item>Upprepa sv</item>
+        <item>Slumpvis uppspelning</item>
+    </array>
+</resources>

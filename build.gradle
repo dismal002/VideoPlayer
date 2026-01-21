@@ -1,0 +1,22 @@
+// Top-level build file
+buildscript {
+    repositories {
+        google()       // REQUIRED for Android Gradle Plugin
+        mavenCentral() // REQUIRED for Java libraries / AndroidX
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

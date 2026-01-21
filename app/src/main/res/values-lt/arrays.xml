@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D Rodyti originalią</item>
+        <item>3D kairę ir į dešinę (HDMI) </item>
+        <item>3D viršuje ir apačioje (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Supaprastinta kinų (GBK)</item>
+        <item>Tradicinė kinų (Big5)</item>
+        <item>Korėjiečių (EUC-KR)</item>
+        <item>Japonų (Shift_)</item>
+        <item>Tailando (TIS-620)</item>
+        <item>Kirilica (KOI8-R)</item>
+        <item>Kirilica (ISO-8859-5)</item>
+        <item>Kirilica (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Vakarų Europa (ISO-8859-1)</item>
+        <item>Vakarų Kalba (cp1254)</item>
+        <item>Vidurio Europa (ISO-8859-2)</item>
+        <item>Vidurio Europa (cp1250)</item>
+        <item>Pietų Europa (ISO-8859-3)</item>
+        <item>Šiaurės Europos (ISO-8859-4)</item>
+        <item>Arabų (ISO-8859-6)</item>
+        <item>Arabų (cp1256)</item>
+        <item>Graikų (ISO-8859-7)</item>
+        <item>Graikų (cp1253)</item>
+        <item>Hebrajų (ISO-8859-8)</item>
+        <item>Hebrajų (cp1255)</item>
+        <item>Turkų (ISO-8859-9)</item>
+        <item>Turkų (cp1252)</item>
+        <item>Vietnamo (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Groti vieną kartą</item>
+        <item>Pakartokite viską</item>
+        <item>Seka žaisti</item>
+        <item>Pakartokite vieną</item>
+        <item>Grojimas atsitiktine tvarka</item>
+    </array>
+</resources>

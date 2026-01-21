@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ListView android:id="@+id/play_mode_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/div_listview_0" android:choiceMode="singleChoice" style="@style/Widget.AppCompat.ListView"/>
+    <View android:background="@drawable/divider_horizontal_textfield" android:layout_width="match_parent" android:layout_height="5dp"/>
+    <CheckedTextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/demo_mode_switch" android:background="@drawable/vplayer_clickable_bg" android:layout_width="match_parent" android:layout_height="40dp" android:checkMark="?android:attr/listChoiceIndicatorMultiple" android:text="@string/demo_mode_switch"/>
+</LinearLayout>

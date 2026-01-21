@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="60dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textColor="@android:color/white" android:layout_gravity="left" android:id="@+id/video_info" android:background="#00ff0000" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

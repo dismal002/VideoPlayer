@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2 डी शो मूल</item>
+        <item>बाएं 3 डी और सही (एचडीएमआई)</item>
+        <item>3 डी के ऊपर और नीचे (एचडीएमआई)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>यूनिकोड (यूटीएफ -8)</item>
+        <item>चीनी (GBK)</item>
+        <item>पारंपरिक चीनी (बिग 5)</item>
+        <item>कोरियाई (ईयूसी-के.आर.)</item>
+        <item>जापानी (Shift_JIS)</item>
+        <item>थाई (तीस-620)</item>
+        <item>सिरिलिक (केओआई 8 आर)</item>
+        <item>सिरिलिक (ISO-8859-5)</item>
+        <item>सिरिलिक (cp1251)</item>
+        <item>यूनिकोड (UTF-16BE)</item>
+        <item>यूनिकोड (UTF-16LE)</item>
+        <item>पश्चिमी यूरोप (ISO-8859-1)</item>
+        <item>पश्चिमी भाषा (cp1254)</item>
+        <item>मध्य यूरोप (ISO-8859-2)</item>
+        <item>मध्य यूरोप (cp1250)</item>
+        <item>दक्षिणी यूरोप (ISO-8859-3)</item>
+        <item>उत्तरी यूरोप (ISO-8859-4)</item>
+        <item>अरबी (ISO-8859-6)</item>
+        <item>अरबी (cp1256)</item>
+        <item>यूनानी (ISO-8859-7)</item>
+        <item>यूनानी (cp1253)</item>
+        <item>हिब्रू (ISO-8859-8)</item>
+        <item>हिब्रू (cp1255)</item>
+        <item>तुर्की (ISO-8859-9)</item>
+        <item>तुर्की (cp1252)</item>
+        <item>वियतनामी (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>एक बार खेलो</item>
+        <item>सभी दोहराएँ</item>
+        <item>अनुक्रम खेलने</item>
+        <item>एक दोहराएँ</item>
+        <item>रैंडम खेल</item>
+    </array>
+</resources>

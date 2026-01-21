@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>عرض 2D الأصلي</item>
+        <item>3D اليسار واليمين (HDMI)</item>
+        <item>3D أعلى وأسفل (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>يونيكود (UTF-8)</item>
+        <item>الصينية المبسطة (GBK)</item>
+        <item>الصينية التقليدية (BIG5)</item>
+        <item>الكورية (EUC-KR)</item>
+        <item>اليابانية (Shift_JIS)</item>
+        <item>التايلاندية (TIS-620)</item>
+        <item>السيريلية (KOI8-R)</item>
+        <item>السيريلية (ISO-8859-5)</item>
+        <item>السيريلية (cp1251)</item>
+        <item>يونيكود (UTF-16BE)</item>
+        <item>يونيكود (UTF-16LE)</item>
+        <item>أوروبا الغربية (ISO-8859-1)</item>
+        <item>لغة غربية (cp1254)</item>
+        <item>وسط أوروبا (ISO-8859-2)</item>
+        <item>أوروبا الوسطى (CP1250)</item>
+        <item>جنوب أوروبا (ISO-8859-3)</item>
+        <item>شمال أوروبا (ISO-8859-4)</item>
+        <item>العربية (ISO-8859-6)</item>
+        <item>العربية (cp1256)</item>
+        <item>اليونانية (ISO-8859-7)</item>
+        <item>اليونانية (cp1253)</item>
+        <item>العبرية (ISO-8859-8)</item>
+        <item>العبرية (cp1255)</item>
+        <item>التركية (ISO-8859-9)</item>
+        <item>التركية (cp1252)</item>
+        <item>الفيتنامية (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>لعب مرة واحدة</item>
+        <item>أكرر كل شيء</item>
+        <item>مسرحية تسلسل</item>
+        <item>كرر واحدة</item>
+        <item>اللعب العشوائي</item>
+    </array>
+</resources>

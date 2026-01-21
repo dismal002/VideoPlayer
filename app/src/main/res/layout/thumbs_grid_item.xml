@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/main_gv_item_height">
+    <FrameLayout android:id="@+id/browser_grid_video_container" android:background="@drawable/thumb_border" android:layout_width="match_parent" android:layout_height="@dimen/main_gv_video_item_height" android:layout_marginTop="10dp">
+        <FrameLayout android:id="@+id/browser_grid_video_framelayout" android:layout_width="match_parent" android:layout_height="@dimen/main_gv_video_item_height">
+            <ImageView android:layout_gravity="center" android:id="@+id/grid_item_image" android:background="@drawable/ic_media_default" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        </FrameLayout>
+        <ProgressBar android:layout_gravity="bottom" android:id="@+id/grid_item_bp_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="6dp" android:progressDrawable="@drawable/progress_horizontal_0" style="?android:attr/progressBarStyleHorizontal"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/browser_grid_video_texts" android:layout_width="match_parent" android:layout_height="@dimen/thumb_grid_item_text_height">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/grid_view_text_color" android:ellipsize="middle" android:gravity="bottom" android:layout_gravity="center" android:id="@+id/grid_item_title" android:layout_width="match_parent" android:layout_height="@dimen/thumb_grid_item_text1_height" android:layout_marginLeft="@dimen/thumb_grid_item_text_margin" android:layout_marginRight="@dimen/thumb_grid_item_text_margin" android:singleLine="true"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/browser_grid_video_infos" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textColor="@color/grid_view_text_info_color" android:gravity="left" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/grid_item_timeinfo" android:layout_width="wrap_content" android:layout_height="@dimen/thumb_grid_item_text2_height" android:layout_marginLeft="@dimen/thumb_grid_item_text_margin" android:layout_weight="1"/>
+            <TextView android:textSize="16sp" android:textColor="@color/grid_view_text_info_color" android:gravity="right" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/grid_item_sizeinfo" android:layout_width="wrap_content" android:layout_height="@dimen/thumb_grid_item_text2_height" android:layout_marginRight="@dimen/thumb_grid_item_text_margin" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

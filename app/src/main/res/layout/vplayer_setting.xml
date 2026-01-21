@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TabHost android:id="@+id/tabhost" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/tabhost_child" android:layout_width="480dp" android:layout_height="wrap_content">
+            <TabWidget android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="268dp">
+                <include android:id="@+id/tab_3d" layout="@layout/vplayer_tab_3d"/>
+                <include android:id="@+id/tab_repeat" layout="@layout/vplayer_tab_playmode"/>
+                <include android:id="@+id/tab_subtitle" layout="@layout/vplayer_tab_subtitle"/>
+                <include android:id="@+id/tab_track" layout="@layout/vplayer_tab_track"/>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

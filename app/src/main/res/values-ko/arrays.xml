@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D 원본 보기</item>
+        <item>3D 좌우 (HDMI)</item>
+        <item>3D 상하 (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>유니 코드 (UTF-8)</item>
+        <item>중국어 간체 (GBK)</item>
+        <item>중국어 번체 (BIG5)</item>
+        <item>한국어 (EUC-KR)</item>
+        <item>일본어 (Shift_JIS의)</item>
+        <item>태국 (TIS-620)</item>
+        <item>키릴 자모 (KOI8-R)</item>
+        <item>키릴 자모 (ISO-8859-5)</item>
+        <item>키릴 문자 (CP1251)</item>
+        <item>유니 코드 (UTF-16BE)</item>
+        <item>유니 코드 (UTF-16LE)</item>
+        <item>서부 유럽 (ISO-8859-1)</item>
+        <item>서부 언어 (CP1254)</item>
+        <item>중앙 유럽 (ISO-8859-2)</item>
+        <item>중부 유럽 (CP1250)</item>
+        <item>남부 유럽 (ISO-8859-3)</item>
+        <item>북부 유럽 (ISO-8859-4)</item>
+        <item>아랍어 (ISO-8859-6)</item>
+        <item>아랍어 (CP1256)</item>
+        <item>그리스어 (ISO-8859-7)</item>
+        <item>그리스어 (CP1253)</item>
+        <item>히브리어 (ISO-8859-8)</item>
+        <item>히브리어 (CP1255)</item>
+        <item>터키어 (ISO-8859-9)</item>
+        <item>터키어 (CP1252)</item>
+        <item>베트남 (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>한번 재생</item>
+        <item>모두 반복</item>
+        <item>시퀀스 재생</item>
+        <item>한편 반복</item>
+        <item>랜덤 재생</item>
+    </array>
+</resources>

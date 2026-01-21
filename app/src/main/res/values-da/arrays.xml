@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D show original</item>
+        <item>3D til venstre og højre (HDMI)</item>
+        <item>3D top og bund (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Forenklet kinesisk (GBK)</item>
+        <item>Traditionel kinesisk (Big5)</item>
+        <item>Korean (EUC-KR)</item>
+        <item>Japansk (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Kyrillisk (KOI8-R)</item>
+        <item>Cyrillic (ISO-8859-5)</item>
+        <item>Kyrillisk (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Vesteuropa (ISO-8859-1)</item>
+        <item>Vestlige sprog (cp1254)</item>
+        <item>Centraleuropa (ISO-8859-2)</item>
+        <item>Centraleuropa (cp1250)</item>
+        <item>Sydeuropa (ISO-8859-3)</item>
+        <item>Nordeuropa (ISO-8859-4)</item>
+        <item>Arabisk (ISO-8859-6)</item>
+        <item>Arabisk (cp1256)</item>
+        <item>Græsk (ISO-8859-7)</item>
+        <item>Græsk (cp1253)</item>
+        <item>Hebraisk (ISO-8859-8)</item>
+        <item>Hebraisk (cp1255)</item>
+        <item>Tyrkisk (ISO-8859-9)</item>
+        <item>Tyrkisk (cp1252)</item>
+        <item>Vietnamesisk (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Afspil én gang</item>
+        <item>Gentag alle</item>
+        <item>Sequence play</item>
+        <item>Gentag ét</item>
+        <item>Tilfældig afspilning</item>
+    </array>
+</resources>

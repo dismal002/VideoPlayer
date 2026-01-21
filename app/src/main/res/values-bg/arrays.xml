@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>Шоу 2D оригинала</item>
+        <item>3D наляво и надясно (HDMI)</item>
+        <item>3D отгоре и отдолу (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Опростен китайски (GBK)</item>
+        <item>Традиционен китайски (Big5)</item>
+        <item>Korean (EUC-KR)</item>
+        <item>Японски (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Кирилица (KOI8-R)</item>
+        <item>Кирилица (ISO-8859-5)</item>
+        <item>Кирилица (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Западна Европа (ISO-8859-1)</item>
+        <item>Western език (cp1254)</item>
+        <item>Централна Европа (ISO-8859-2),</item>
+        <item>Central Europe (cp1250)</item>
+        <item>Южна Европа (ISO-8859-3)</item>
+        <item>Северна Европа (ISO-8859-4),</item>
+        <item>Арабски (ISO-8859 .6)</item>
+        <item>Арабски (cp1256)</item>
+        <item>Гръцки (ISO-8859-7)</item>
+        <item>Гръцки (cp1253)</item>
+        <item>Иврит (ISO-8859-8)</item>
+        <item>Иврит (cp1255)</item>
+        <item>Турски (ISO-8859-9)</item>
+        <item>Турски (cp1252)</item>
+        <item>Виетнамски (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Изпълнение веднъж</item>
+        <item>Повторение на всички</item>
+        <item>Sequence игра</item>
+        <item>Повторете един</item>
+        <item>Произволно възпроизвеждане на</item>
+    </array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D spectacol original</item>
+        <item>3D la stânga și dreapta (HDMI)</item>
+        <item>Partea de sus și de jos 3D (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode(UTF-8)</item>
+        <item>Chineza simplificată (GBK)</item>
+        <item>Chineză tradițională (Big5)</item>
+        <item>Coreean (EUC-KR)</item>
+        <item>Japoneză (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Chirilic (KOI8-R)</item>
+        <item>Chirilic (ISO-8859-5)</item>
+        <item>Chirilic (cp1251)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-16LE)</item>
+        <item>Europa de Vest (ISO-8859-1)</item>
+        <item>Limba de Vest (cp1254)</item>
+        <item>Europa Centrală (ISO-8859-2)</item>
+        <item>Europa Centrală (CP1250)</item>
+        <item>Europa de Sud (ISO-8859-3)</item>
+        <item>Europa de Nord (ISO-8859-4)</item>
+        <item>Arabă (ISO-8859-6)</item>
+        <item>Arabă (cp1256)</item>
+        <item>Greacă (ISO-8859-7)</item>
+        <item>Greacă (cp1253)</item>
+        <item>Ebraică (ISO-8859-8)</item>
+        <item>Ebraică (cp1255)</item>
+        <item>Turcă (ISO-8859-9)</item>
+        <item>Turcă (cp1252)</item>
+        <item>Vietnameză (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Redare o singură dată</item>
+        <item>Repetare toate</item>
+        <item>Joc secvență</item>
+        <item>Repeta o</item>
+        <item>Redare aleatorie</item>
+    </array>
+</resources>

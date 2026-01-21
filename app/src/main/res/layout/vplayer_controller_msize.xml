@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/vplayer_main_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/vplayer_top_panel" android:background="@drawable/bttn_background" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="40dp" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/float_window_button" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:src="@drawable/bttn_full_window"/>
+        <TextView android:textSize="14sp" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:singleLine="true" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/close_button" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="5dp" android:src="@drawable/bttn_close"/>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:id="@+id/progress_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/progress_container_volume" android:background="@drawable/bttn_background" android:visibility="gone" android:layout_width="14dp" android:layout_height="71dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/progress_type" android:background="@drawable/ic_sound_on" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.softwinner.fireplayer.videoplayerui.ProgressView android:layout_gravity="center" android:id="@+id/progress_level" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/progress_container_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/progressbar_cache" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MyProgressStyle"/>
+            <TextView android:textSize="18sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@+id/loading_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/playpause_bttn" android:background="@drawable/ic_play" android:layout_width="65dp" android:layout_height="65dp"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/vplayer_bottom_panel" android:background="@drawable/bttn_background" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="40dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12sp" android:textStyle="bold" android:id="@+id/cur_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <SeekBar android:id="@+id/seekbar" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="6dp" android:progressDrawable="@drawable/vplayer_seekbar_progress" android:minHeight="6dp" android:thumb="@drawable/bttn_seekbar_thumb" android:thumbOffset="4dp" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:id="@+id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

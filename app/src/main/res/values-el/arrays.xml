@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>Δείχνουν 2D πρωτότυπο</item>
+        <item>3D αριστερά και δεξιά (HDMI)</item>
+        <item>Top 3D και κάτω (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Απλοποιημένα Κινέζικα (GBK)</item>
+        <item>Παραδοσιακά Κινέζικα (Big5)</item>
+        <item>Κορέας (EUC-KR)</item>
+        <item>Ταϊλανδέζικη (TIS-620)</item>
+        <item>Ταϊλανδέζικη (TIS-620)</item>
+        <item>Κυριλλικά (KOI8-R)</item>
+        <item>Κυριλλικά (ISO-8859-5)</item>
+        <item>Κυριλλικά (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Δυτικής Ευρώπης (ISO-8859-1)</item>
+        <item>Δυτική γλώσσα (cp1254)</item>
+        <item>Κεντρικής Ευρώπης (ISO-8859-2)</item>
+        <item>Κεντρική Ευρώπη (CP1250)</item>
+        <item>Νότια Ευρώπη (ISO-8859-3)</item>
+        <item>Βόρεια Ευρώπη (ISO-8859-C4)</item>
+        <item>Αραβικά (ISO-8859-6)</item>
+        <item>Αραβικά (cp1256)</item>
+        <item>Ελληνική (ISO-8859-7)</item>
+        <item>Ελληνικά (cp1253)</item>
+        <item>Εβραϊκά (ISO-8859-8)</item>
+        <item>Εβραϊκά (cp1255)</item>
+        <item>Τουρκική (ISO-8859-9)</item>
+        <item>Τουρκική (cp1252)</item>
+        <item>Βιετνάμ (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Αναπαραγωγή μία φορά</item>
+        <item>Επανάληψη όλων</item>
+        <item>Play Ακολουθία</item>
+        <item>Επανάληψη ενός</item>
+        <item>Τυχαία αναπαραγωγή</item>
+    </array>
+</resources>

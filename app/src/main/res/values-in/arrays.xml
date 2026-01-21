@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D pertunjukan asli</item>
+        <item>3D kiri dan kanan (HDMI)</item>
+        <item>Top 3D dan bawah (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode(UTF-8)</item>
+        <item>Cina Sederhana (GBK)</item>
+        <item>Cina Tradisional (Big5)</item>
+        <item>Korea (EUC-KR)</item>
+        <item>Jepang (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Cyrillic (KOI8-R)</item>
+        <item>Cyrillic (ISO-8859-5)</item>
+        <item>Cyrillic (cp1251)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-16LE)</item>
+        <item>Eropa Barat (ISO-8859-1)</item>
+        <item>Bahasa Barat (cp1254)</item>
+        <item>Eropa Tengah (ISO-8859-2)</item>
+        <item>Eropa Tengah (cp1250)</item>
+        <item>Eropa Selatan (ISO-8859-3)</item>
+        <item>Eropa Utara (ISO-8859-4)</item>
+        <item>Arab (ISO-8859-6)</item>
+        <item>Arab (cp1256)</item>
+        <item>Yunani (ISO-8859-7)</item>
+        <item>Yunani (cp1253)</item>
+        <item>Ibrani (ISO-8859-8)</item>
+        <item>Ibrani (cp1255)</item>
+        <item>Turki (ISO-8859-9)</item>
+        <item>Turki (cp1252)</item>
+        <item>Vietnam (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Bermain sekali</item>
+        <item>Ulangi semua</item>
+        <item>Urutan bermain</item>
+        <item>Ulangi satu</item>
+        <item>Putar acak</item>
+    </array>
+</resources>

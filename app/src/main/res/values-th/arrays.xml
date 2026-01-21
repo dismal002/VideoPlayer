@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>โชว์ 2D เดิม</item>
+        <item>3D ซ้ายและขวา (HDMI)</item>
+        <item>ด้านบนและด้านล่าง 3D (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>จีน (GBK)</item>
+        <item>จีนดั้งเดิม (Big5)</item>
+        <item>เกาหลี (EUC-KR)</item>
+        <item>ญี่ปุ่น (Shift_JIS)</item>
+        <item>ไทย (TIS-620)</item>
+        <item>ซีริลลิ (KOI8-R)</item>
+        <item>ซีริลลิ (ISO-8859-5)</item>
+        <item>ซีริลลิ (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>ยุโรปตะวันตก (ISO-8859-1)</item>
+        <item>ภาษาตะวันตก (cp1254)</item>
+        <item>ยุโรปกลาง (ISO-8859-2)</item>
+        <item>ยุโรปกลาง (cp1250)</item>
+        <item>ภาคใต้ของยุโรป (ISO-8859-3)</item>
+        <item>ยุโรปเหนือ (ISO-8859-4)</item>
+        <item>ภาษาอาหรับ (ISO-8859-6)</item>
+        <item>อาหรับ (cp1256)</item>
+        <item>กรีก (ISO-8859-7)</item>
+        <item>กรีก (cp1253)</item>
+        <item>ภาษาฮิบ​​รู (ISO-8859-8)</item>
+        <item>ภาษาฮิบ​​รู (cp1255)</item>
+        <item>ตุรกี (ISO-8859-9)</item>
+        <item>ตุรกี (CP1252)</item>
+        <item>เวียดนาม (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>เล่นครั้งเดียว</item>
+        <item>ซ้ำทั้งหมด</item>
+        <item>ลำดับการเล่น</item>
+        <item>ทำซ้ำหนึ่ง</item>
+        <item>การเล่นแบบสุ่ม</item>
+    </array>
+</resources>

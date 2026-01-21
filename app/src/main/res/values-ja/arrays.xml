@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>オリジナル2Dショー</item>
+        <item>左と右の3D（HDMI）</item>
+        <item>3Dの上部と下部（HDMI）</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>ユニコード（UTF-8）</item>
+        <item>簡体字中国語（GBK）</item>
+        <item>繁体字中国語（Big5の）</item>
+        <item>韓国語（EUC-KR）</item>
+        <item>日本語（シフトJIS）</item>
+        <item>タイ（TIS-620）</item>
+        <item>キリル文字（KOI8-R）</item>
+        <item>キリル文字（ISO-8859-5）</item>
+        <item>キリル文字（CP1251）</item>
+        <item>ユニコード（UTF-16BE）</item>
+        <item>ユニコード（UTF-16LE）</item>
+        <item>西ヨーロッパ（ISO-8859-1）</item>
+        <item>西洋言語（cp1254）</item>
+        <item>中央ヨーロッパ（ISO-8859-2）</item>
+        <item>中央ヨーロッパ（CP1250）</item>
+        <item>南ヨーロッパ（ISO-8859-3）</item>
+        <item>北欧（ISO-8859-4）</item>
+        <item>アラビア語（ISO-8859-6）</item>
+        <item>アラビア語（cp1256）</item>
+        <item>ギリシャ語（ISO-8859-7）</item>
+        <item>ギリシャ語（CP1253）</item>
+        <item>ヘブライ語（ISO-8859-8）</item>
+        <item>ヘブライ語（cp1255）</item>
+        <item>トルコ語（ISO-8859-9）</item>
+        <item>トルコ語（CP1252）</item>
+        <item>ベトナム語（cp1258）</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>一度再生</item>
+        <item>すべてを繰り返し</item>
+        <item>シーケンスプレイ</item>
+        <item>リピート1</item>
+        <item>ランダム再生</item>
+    </array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@+id/menu_search" android:title="@string/menu_search" app:showAsAction="ifRoom" app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item android:icon="@drawable/ic_menu_sort" android:id="@+id/action_sort" android:title="@string/menu_sort" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/sort_by_alpha" android:title="@string/menu_sort_alpha"/>
+            <item android:id="@+id/sort_by_size" android:title="@string/menu_sort_by_size"/>
+            <item android:id="@+id/sort_by_date" android:title="@string/menu_sort_date"/>
+            <item android:id="@+id/sort_asc" android:title="@string/menu_sort_asc" android:checkable="true" android:checked="true"/>
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@+id/refresh" android:title="@string/menu_refresh" android:showAsAction="always"/>
+    <item android:id="@+id/menu_athumb" android:title="@string/menu_athumb" android:checkable="true" android:showAsAction="never"/>
+    <item android:id="@+id/menu_dis_presentation" android:title="@string/menu_dis_presentation" android:checkable="true" android:showAsAction="never"/>
+    <item android:id="@+id/menu_vfloatwin" android:title="@string/menu_vfloatwin" android:checkable="true" android:showAsAction="never"/>
+    <item android:id="@+id/menu_tile" android:title="@string/menu_tile" android:showAsAction="never"/>
+    <item android:id="@+id/menu_stack" android:title="@string/menu_stack" android:showAsAction="never"/>
+    <item android:id="@+id/menu_clearplaylist" android:title="@string/menu_clearplayedlist" android:showAsAction="never"/>
+    <item android:id="@+id/menu_clearhistory" android:title="@string/menu_clear_search_history" android:showAsAction="never"/>
+    <item android:id="@+id/menu_exit" android:orderInCategory="100" android:title="@string/menu_exit" android:showAsAction="never"/>
+    <item android:id="@+id/menu_about" android:title="@string/menu_about" android:showAsAction="never"/>
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imageview_weak_ref" />
+    <item type="id" name="selected_view" />
+</resources>

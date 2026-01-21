@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D tonen origineel</item>
+        <item>3D links en rechts (HDMI)</item>
+        <item>3D-boven-en onderkant (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Vereenvoudigd Chinees (GBK)</item>
+        <item>Traditioneel Chinees (Big5)</item>
+        <item>Korean (EUC-KR)</item>
+        <item>Japans (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Cyrillische (KOI8-R)</item>
+        <item>Cyrillisch (ISO-8859-5)</item>
+        <item>Cyrillische (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>West-Europa (ISO-8859-1)</item>
+        <item>Westerse taal (cp1254)</item>
+        <item>Centraal-Europa (ISO-8859-2)</item>
+        <item>Centraal-Europa (cp1250)</item>
+        <item>Zuid-Europa (ISO-8859-3)</item>
+        <item>Noord-Europa (ISO-8859-4)</item>
+        <item>Arabisch (ISO-8859-6)</item>
+        <item>Arabisch (cp1256)</item>
+        <item>Grieks (ISO-8859-7)</item>
+        <item>Grieks (cp1253)</item>
+        <item>Hebreeuws (ISO-8859-8)</item>
+        <item>Hebreeuws (cp1255)</item>
+        <item>Turks (ISO-8859-9)</item>
+        <item>Turks (cp1252)</item>
+        <item>Vietnamees (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Een keer afspelen</item>
+        <item>Alles herhalen</item>
+        <item>Sequence play</item>
+        <item>Een herhalen</item>
+        <item>Willekeurig afspelen</item>
+    </array>
+</resources>

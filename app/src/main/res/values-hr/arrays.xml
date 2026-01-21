@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D pokazuju izvorni</item>
+        <item>3D lijevo i desno (HDMI)</item>
+        <item>3D gornja i donja (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode(UTF-8)</item>
+        <item>Pojednostavljeni kineski (GBK)</item>
+        <item>Tradicionalni kineski (Veliki5)</item>
+        <item>Korejski (EUC-KR)</item>
+        <item>Japanski (Shift_JIS)</item>
+        <item>Tajlandski (TIS-620)</item>
+        <item>Cyrillic (KOI8-R)</item>
+        <item>Ćirilica (ISO-8859-5) u</item>
+        <item>Ćirilica (cp1251)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-16LE)</item>
+        <item>Zapadna Europa (ISO-8859-1)</item>
+        <item>Western jezik (cp1254)</item>
+        <item>Srednja Europa (ISO-8859-2)</item>
+        <item>Srednja Europa (cp1250)</item>
+        <item>Južna Europa (ISO-8859-3)</item>
+        <item>Sjeverna Europa (ISO-8859-4)</item>
+        <item>Arapski (ISO-8859-6)</item>
+        <item>Arapski (cp1256)</item>
+        <item>Grčki (ISO-8859-7)</item>
+        <item>Grčki (cp1253)</item>
+        <item>Hebrejski (ISO-8859-8)</item>
+        <item>Hebrejski (cp1255)</item>
+        <item>Turski (ISO-8859-9)</item>
+        <item>Turski (cp1252)</item>
+        <item>Vijetnamski (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Igrajte jednom</item>
+        <item>Ponovite sve</item>
+        <item>Slijed igra</item>
+        <item>Ponovite jedan</item>
+        <item>Random play</item>
+    </array>
+</resources>

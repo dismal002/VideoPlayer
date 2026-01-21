@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softwinner.fireplayer">
+
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+    <application
+        android:name="com.softwinner.fireplayer.ui.FourKApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.Main"
+        android:hardwareAccelerated="true">
+
+        <activity
+            android:name="com.softwinner.fireplayer.ui.FourKMainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <meta-data android:name="MY_CHANNEL" android:value="offical_rel"/>
+        </activity>
+
+        <activity
+            android:name="com.softwinner.fireplayer.ui.VideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/ThemeNoTitleBarFullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rtsp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme=""/>
+                <data android:scheme="file"/>
+                <data android:scheme="ftp"/>
+                <data android:scheme="content"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/x-quicktimeplayer"/>
+                <data android:mimeType="application/x-shockwave-flash"/>
+                <data android:mimeType="application/x-matroska"/>
+                <data android:mimeType="application/3gpp*"/>
+                <data android:mimeType="application/mp4"/>
+                <data android:mimeType="application/mpeg*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="audio/mpegurl"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="application/x-mpegurl"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.softwinner.fireplayer.mediamanager.LocalMediaScannerService"
+            android:exported="false"/>
+        <service
+            android:name="com.softwinner.fireplayer.videoplayerui.FloatVideoService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="softwinner.intent.action.PLAY_NETURI"/>
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.softwinner.fireplayer.provider.LocalMediaProvider"
+            android:authorities="com.softwinner.fireplayer"
+            android:exported="true"/>
+        <provider
+            android:name="com.softwinner.fireplayer.provider.MySuggestionProvider"
+            android:authorities="com.softwinner.fireplayer.MySuggestionProvider"/>
+
+        <receiver android:name="com.softwinner.fireplayer.mediamanager.MediaScannerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.softwinner.MEDIA_SCANNER_DELETE_FILE"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.action.NEW_VIDEO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.softwinner.service.SoftWinnerService"/>
+    </application>
+</manifest>

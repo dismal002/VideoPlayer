@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>תכנית מקורית 2D</item>
+        <item>3D ימין ועל שמאל (HDMI)</item>
+        <item>עליון ותחתון 3D (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>סינית פשוטה (GBK)</item>
+        <item>סינית מסורתית (Big5)</item>
+        <item>קוריאני (EUC-KR)</item>
+        <item>יפני (Shift_JIS)</item>
+        <item>תאילנדי (TIS-620)</item>
+        <item>קירילית (KOI8-R)</item>
+        <item>קירילי (ISO-8859-5)</item>
+        <item>קירילית (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>מערב אירופה (ISO-8859-1)</item>
+        <item>השפה המערבית (cp1254)</item>
+        <item>מרכז אירופה (ISO-8859-2)</item>
+        <item>מרכז אירופה (cp1250)</item>
+        <item>דרום אירופה (ISO-8859-3)</item>
+        <item>צפון אירופה (ISO-8859-4)</item>
+        <item>הערבי (ISO-8859-6)</item>
+        <item>ערבית (cp1256)</item>
+        <item>יווני (ISO-8859-7)</item>
+        <item>יווני (cp1253)</item>
+        <item>עברית (ISO-8859-8)</item>
+        <item>עברית (cp1255)</item>
+        <item>תורכי (ISO-8859-9)</item>
+        <item>תורכי (cp1252)</item>
+        <item>וייטנאמי (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>לשחק פעם אחת</item>
+        <item>חזור על כל</item>
+        <item>מחזה רצף</item>
+        <item>חזור על אחד</item>
+        <item>השמעה אקראית</item>
+    </array>
+</resources>

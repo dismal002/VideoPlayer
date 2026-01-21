@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D Eredeti megjelenítése</item>
+        <item>3D-bal és jobb (HDMI)</item>
+        <item>3D-s alsó és felső (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Egyszerűsített kínai (GBK)</item>
+        <item>Hagyományos kínai (Big5)</item>
+        <item>Koreai (EUC-KR)</item>
+        <item>Japán (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Cirill (KOI8-R)</item>
+        <item>Cirill (ISO-8859-5)</item>
+        <item>Cirill (CP1251)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-16LE)</item>
+        <item>Nyugat-Európa (ISO-8859-1)</item>
+        <item>Nyugati nyelv (CP1254)</item>
+        <item>Közép-Európa (ISO-8859-2)</item>
+        <item>Közép-Európa (cp1250)</item>
+        <item>Dél-Európában (ISO-8859-3)</item>
+        <item>Észak-Európa (ISO-8859-4)-</item>
+        <item>Arab (ISO-8859-6)</item>
+        <item>Arab (cp1256)</item>
+        <item>Greek (ISO-8859-7)</item>
+        <item>Greek (CP1253)</item>
+        <item>Héber (ISO-8859-8)</item>
+        <item>Héber (cp1255)</item>
+        <item>Török (ISO-8859-9)</item>
+        <item>Török (CP1252)</item>
+        <item>Vietnámi (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Lejátszás egyszer</item>
+        <item>Összes ismétlése</item>
+        <item>Sequence játék</item>
+        <item>Ismétlés: egyet</item>
+        <item>Véletlenszerű lejátszás</item>
+    </array>
+</resources>

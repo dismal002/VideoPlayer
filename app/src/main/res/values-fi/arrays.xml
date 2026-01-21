@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D Näytä alkuperäinen</item>
+        <item>3D vasemmalle ja oikealle (HDMI)</item>
+        <item>3D ylhäällä ja alhaalla (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Yksinkertaistettu kiina (GBK)</item>
+        <item>Perinteinen kiina (Big5)</item>
+        <item>Korean (EUC-KR)</item>
+        <item>Japani (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Cyrillic (KOI8-R)</item>
+        <item>Cyrillic (ISO-8859-5)</item>
+        <item>Cyrillic (CP1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Länsi-Eurooppa (ISO-8859-1)</item>
+        <item>Länsi-kieli (cp1254)</item>
+        <item>Keski-Euroopassa (ISO-8859-2)</item>
+        <item>Keski-Euroopassa (cp1250)</item>
+        <item>Etelä-Eurooppa (ISO-8859-3)</item>
+        <item>Pohjois-Eurooppa (ISO-8859-4),</item>
+        <item>Arabia (ISO-8859-6)</item>
+        <item>Arabia (cp1256)</item>
+        <item>Kreikan (ISO-8859-7)</item>
+        <item>Kreikan (cp1253)</item>
+        <item>Heprea (ISO-8859-8)</item>
+        <item>Heprea (cp1255)</item>
+        <item>Turkki (ISO-8859-9)</item>
+        <item>Turkish (cp1252)</item>
+        <item>Vietnam (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Toista kerran</item>
+        <item>Toista kaikki</item>
+        <item>Sequence pelata</item>
+        <item>Toista yksi</item>
+        <item>Satunnaistoisto</item>
+    </array>
+</resources>

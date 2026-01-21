@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/vplayer_bottom_panel" android:background="@drawable/bttn_background" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="148dp">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/cur_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <SeekBar android:id="@+id/seekbar" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="6dp" android:progressDrawable="@drawable/vplayer_seekbar_progress" android:minHeight="6dp" android:thumb="@drawable/ic_seekbar_thumb" android:thumbOffset="13dp" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <ImageView android:id="@+id/zoom_bttn" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/vplayer_div1" android:background="@drawable/div_vplay_parting_line" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="47dp" android:layout_marginRight="30dp"/>
+            <ImageView android:id="@+id/previous_bttn" android:background="@drawable/vplayer_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="63dp"/>
+            <ImageView android:id="@+id/playpause_bttn" android:background="@drawable/bttn_play_m" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/next_bttn" android:background="@drawable/vplayer_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="63dp" android:layout_marginRight="30dp"/>
+            <ImageView android:id="@+id/vplayer_div2" android:background="@drawable/div_vplay_parting_line" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="47dp"/>
+            <ImageView android:id="@+id/setting_bttn" android:background="@drawable/bttn_setting" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/stop_bttn" android:background="@drawable/bttn_close" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView android:textSize="18sp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+</LinearLayout>

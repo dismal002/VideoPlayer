@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="min_value_subdelay">-2000</integer>
+    <integer name="max_step_subdelay">4000</integer>
+    <integer name="min_value_suboffset">0</integer>
+    <integer name="max_step_suboffset">100</integer>
+    <integer name="min_value_charsize">16</integer>
+    <integer name="max_step_charsize">16</integer>
+</resources>

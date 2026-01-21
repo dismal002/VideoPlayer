@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D Zobraziť originál</item>
+        <item>3D vľavo a vpravo (HDMI)</item>
+        <item>3D hore a dole (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode(UTF-8)</item>
+        <item>Zjednodušená čínština (GBK)</item>
+        <item>Tradičná čínština (Big5)</item>
+        <item>Korean (EUC-KR)</item>
+        <item>Japončina (Shift_JIS)</item>
+        <item>Thai (TIS-620)</item>
+        <item>Azbuka (KOI8-R)</item>
+        <item>Azbuka (ISO-8859-5)</item>
+        <item>Azbuka (CP1251)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-16LE)</item>
+        <item>Západná Európa (ISO-8859-1)</item>
+        <item>Západné jazyk (cp1254)</item>
+        <item>Stredná Európa (ISO-8859-2)</item>
+        <item>Stredná Európa (cp1250)</item>
+        <item>Južná Európa (ISO-8859-3)</item>
+        <item>Severná Európa (ISO-8859-4)</item>
+        <item>Arabčina (ISO-8859-6)</item>
+        <item>Arabčina (cp1256)</item>
+        <item>Grécky (ISO-8859-7)</item>
+        <item>Grécky (CP1253)</item>
+        <item>Hebrejčina (ISO-8859-8)</item>
+        <item>Hebrejčina (cp1255)</item>
+        <item>Turkish (ISO-8859-9)</item>
+        <item>Turkish (CP1252)</item>
+        <item>Vietnamci (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Prehrať jedenkrát</item>
+        <item>Opakovať všetko</item>
+        <item>Poradie prehrávania</item>
+        <item>Opakovať jednu</item>
+        <item>Náhodné prehrávanie</item>
+    </array>
+</resources>

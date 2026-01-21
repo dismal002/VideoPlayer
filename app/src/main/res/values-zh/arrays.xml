@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D显示原图</item>
+        <item>3D左右(HDMI)</item>
+        <item>3D上下(HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode(UTF-8)</item>
+        <item>简体中文(GBK)</item>
+        <item>繁体中文(Big5)</item>
+        <item>韩文(EUC-KR)</item>
+        <item>日文(Shift_JIS)</item>
+        <item>泰文(TIS-620)</item>
+        <item>西里尔文(KOI8-R)</item>
+        <item>西里尔文(ISO-8859-5)</item>
+        <item>西里尔文(cp1251)</item>
+        <item>Unicode(UTF-16BE)</item>
+        <item>Unicode(UTF-16LE)</item>
+        <item>西欧语系(ISO-8859-1)</item>
+        <item>西欧语系(cp1254)</item>
+        <item>中欧语系(ISO-8859-2)</item>
+        <item>中欧语系(cp1250)</item>
+        <item>南欧语系(ISO-8859-3)</item>
+        <item>北欧语系(ISO-8859-4)</item>
+        <item>阿拉伯文(ISO-8859-6)</item>
+        <item>阿拉伯文(cp1256)</item>
+        <item>希腊语(ISO-8859-7)</item>
+        <item>希腊语(cp1253)</item>
+        <item>希伯来文(ISO-8859-8)</item>
+        <item>希伯来文(cp1255)</item>
+        <item>土耳其文(ISO-8859-9)</item>
+        <item>土耳其文(cp1252)</item>
+        <item>越南文(cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>单曲播放</item>
+        <item>全部循环</item>
+        <item>顺序播放</item>
+        <item>单曲循环</item>
+        <item>随机播放</item>
+    </array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_3d_list">
+        <item>2D gösterisi orijinal</item>
+        <item>Sol 3D ve sağ (HDMI)</item>
+        <item>3D üst ve alt (HDMI)</item>
+    </array>
+    <array name="subtitle_charset_values">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>EUC-KR</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>KOI8-R</item>
+        <item>ISO-8859-5</item>
+        <item>windows-1251</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>ISO-8859-1</item>
+        <item>windows-1254</item>
+        <item>ISO-8859-2</item>
+        <item>windows-1250</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-6</item>
+        <item>windows-1256</item>
+        <item>ISO-8859-7</item>
+        <item>windows-1253</item>
+        <item>ISO-8859-8</item>
+        <item>windows-1255</item>
+        <item>ISO-8859-9</item>
+        <item>windows-1252</item>
+        <item>windows-1258</item>
+    </array>
+    <array name="subtitle_charset_list">
+        <item>Unicode (UTF-8)</item>
+        <item>Basitleştirilmiş Çince (GBK)</item>
+        <item>Geleneksel Çince (Big5)</item>
+        <item>Kore (EUC-KR)</item>
+        <item>Japon (Shift_JIS)</item>
+        <item>Tay (TIS-620)</item>
+        <item>Kiril (KOI8-R)</item>
+        <item>Kril (ISO-8859-5)</item>
+        <item>Kiril (cp1251)</item>
+        <item>Unicode (UTF-16BE)</item>
+        <item>Unicode (UTF-16LE)</item>
+        <item>Batı Avrupa (ISO-8859-1),</item>
+        <item>Batı dillerinde (cp1254)</item>
+        <item>Orta Avrupa (ISO-8859-2),</item>
+        <item>Orta Avrupa (cp1250)</item>
+        <item>Güney Avrupada (ISO-8859-3),</item>
+        <item>Kuzey Avrupa (ISO-8859-4)</item>
+        <item>Arap (ISO-8859-6)</item>
+        <item>Arapça (cp1256)</item>
+        <item>Yunan (ISO-8859-7)</item>
+        <item>Yunan (cp1253)</item>
+        <item>İbranice (ISO-8859-8)</item>
+        <item>İbranice (cp1255)</item>
+        <item>Türk (ISO-8859-9)</item>
+        <item>Türkçe (cp1252)</item>
+        <item>Vietnam (cp1258)</item>
+    </array>
+    <array name="repeat_mode_items">
+        <item>Bir kez oynat</item>
+        <item>Tümünü tekrarla</item>
+        <item>Sıra oyun</item>
+        <item>Bir tekrarlayın</item>
+        <item>Rasgele çalma</item>
+    </array>
+</resources>
